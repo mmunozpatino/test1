@@ -5,11 +5,13 @@ import { FormsModule }   from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { BannerComponent} from './banner-inline.component';
+import { CalculadoraComponent } from './calculadora/calculadora.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BannerComponent
+    BannerComponent,
+    CalculadoraComponent
   ],
   imports: [
     BrowserModule,
