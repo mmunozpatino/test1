@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
    selector: 'calculadora',
-   template: `<h1>Calculadora</h1>`
+   template: '<h1>Calculadora</h1>'
 })
 export class CalculadoraComponent implements OnInit {
    constructor() { }
